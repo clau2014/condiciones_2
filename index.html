@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="./assets/img/imagen_border.jpg" id="changeborder" class="border" alt="Imagen" title="has click para cambiar el borde" style="width: 200px;">
+        <p>has click para cambiar el borde</p>
+    </div>
+    
+
+    <section class="elegir-sticker">
+        <div class="content_1">
+            <div class="img-opcion">
+                <div class="images">
+                   <img src="./assets/img/imagen_1.jpg" alt="" style="width: 150px;">
+                   <label for="alternativa_1">Cuantos Stickers quieres?</label>
+                   <input type="text" id="alternativa_1" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+                <div class="images">
+                   <img src="./assets/img/imagen_2.jpg" alt="" style="width: 150px;">
+                   <label for="alternativa_2">Cuantos Stickers quieres?</label>
+                   <input type="text" id="alternativa_2" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+                <div class="images">
+                   <img src="./assets/img/imagen_3.jpg" alt="" style="width: 150px;">
+                   <label for="alternativa_3">Cuantos Stickers quieres?</label>
+                   <input type="text" id="alternativa_3" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+            </div>
+            <button id="count">validar</button>
+            <p id="amount_info"></p>
+        </div>
+    </section>
+
+    <section class="password">
+        <div class="content_2">
+            <p>Ingresa tus numeros</p>
+            <div class="numero_clave">
+                <select id="llave_1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="llave_2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="llave_3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>            
+            </div>
+            <button id="validar">INGRESAR</button>
+            <p id="validar"></p>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
